@@ -7,6 +7,7 @@ while True:
     num = int(num)
     if r == num:
         print('Bingo!! the answer is ' , r)
+        print('You have guessed', count, 'times!')
         break
     elif num > r:
         print('the answer is smaller than ', num)
